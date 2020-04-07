@@ -1,11 +1,11 @@
 ---
-title: Lighthouse website audits in Backstage
+title: Introducting Lighthouse for Backstage
 author: Paul Marbach
 authorURL: http://twitter.com/fastfrwrd
 authorImageURL: https://pbs.twimg.com/profile_images/1224058798958088192/JPxS8uzR_400x400.jpg
 ---
 
-## Introducting Lighthouse for Backstage!
+## Introducting Lighthouse for Backstage
 
 ![image illustrating the Lighthouse plugin for Backstage](assets/3/lead.png)
 
@@ -20,13 +20,13 @@ is a great open-source resource for benchmarking and improving the accessibility
 
 At Spotify, we keep track of Lighthouse audit scores over time to look at trends and areas for investment. We particularly look to Lighthouse to give us accessibility recommendations; we plan to roll out Lighthouse accessibility category scores as a benchmark metric for all websites at Spotify in the next few months using pieces of this plugin.
 
-## Lighthouse, tracked over time.
+## Lighthouse, tracked over time
 
-What's unique about using this plugin rather than simply running the reports is that we track the performance over time of the main metrics that Lighthouse outputs. The sparklines show you at a glance how all of your websites are holding up over recent builds. 
+What's unique about using this plugin rather than simply running the reports is that we track the performance over time of the main metrics that Lighthouse outputs. The sparklines show you at a glance how all of your websites are holding up over recent builds.
 
 ![image of the audit list in the Lighthouse plugin](assets/3/audit-list.png)
 
-View the familiar Lighthouse report directly inside backstage, with the ability to travel back and forth through the audit history to diagnose which release caused a performance or SEO regression.
+View the familiar Lighthouse report directly inside Backstage, with the ability to travel back and forth through your audit history to diagnose which release caused a performance or SEO regression.
 
 ![image of the audit view in the Lighthouse plugin](assets/3/audit-view.png)
 
